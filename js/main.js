@@ -1,4 +1,5 @@
 import MenuScene from "./scenes/MenuScene.js";
+import ControlsScene from "./scenes/ControlsScene.js";
 import AdventureScene from "./scenes/AdventureScene.js";
 import TechnologyScene from "./scenes/TechnologyScene.js";
 
@@ -36,8 +37,8 @@ const config = {
     },
 
     scene: [
-
         MenuScene,
+        ControlsScene,
         AdventureScene,
         TechnologyScene
     ]

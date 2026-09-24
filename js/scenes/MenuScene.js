@@ -356,8 +356,13 @@ export default class MenuScene extends Phaser.Scene {
 
     startAdventure() {
 
-        this.registry.set("deviceMode", this.deviceMode);
+        this.registry.set(
+            "deviceMode",
+            this.deviceMode
+        );
 
-        this.scene.start("AdventureScene");
+        this.scene.start(
+            "ControlsScene"
+        );
     }
 }
