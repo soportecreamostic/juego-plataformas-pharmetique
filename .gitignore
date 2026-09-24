@@ -1,0 +1,16 @@
+# Visual Studio Code
+.vscode/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependencias de Node.js
+node_modules/
+
+# Archivos temporales
+*.tmp
+*.temp
